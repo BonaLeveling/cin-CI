@@ -1,0 +1,573 @@
+body {
+    font-family: Inter, sans-serif;
+    background-color: #1F1B24;
+    color: white;
+}
+.header {
+    background-image: linear-gradient(rgba(0,0,0,0.8)), url(img/film-8\ 1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+} 
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;    
+}
+.bg-red  {
+    background-color: #E62E2D;
+    padding: 0.5rem;
+    border-radius: 1.5rem;
+    text-decoration: none;
+    color: white;
+    transition: .3s;
+}
+.menuH {
+    display: none;
+}
+.bg-red:hover {
+    background-color: #c52625;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btext {
+    font-size: 2.5rem;
+    font-weight: bold;
+    width: 400px;
+    text-align: center;
+}
+.mail {
+    margin: 40px 0;
+}
+.mail input {
+    position: relative;
+    padding: 0.5rem;
+    width: 40rem;
+    font-size: 1.5rem;
+    border-radius: 1.5rem;
+    border: none;
+    padding-left: 5rem;
+    color: #7A7575;
+}
+.mail a {
+    text-decoration: none;
+    background-color: #E62E2D;
+    padding: 0.9rem;
+    border-radius: 1.5rem;
+    color: white;
+    position: absolute;
+    margin-left: -12rem;
+    transition: .3s;
+}
+.mail a:hover {
+    background-color: #c52625;
+}
+.prix {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 20px;
+}
+.ptext {
+    font-size: 1.5rem;
+    width: 400px;
+    margin: 40px 0;
+}
+.ptext a {
+    color: #E62E2D;
+    transition: .3s;
+}
+.ptext a:hover {
+    color: #c52625;
+}
+.ptext2 {
+    width: 400px;
+    font-size: 2rem;
+    margin-top: 500px;
+    vertical-align: middle;
+}
+.affiche {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 20px;
+}
+.affiche img {
+    width: 350px;
+}
+.affiche2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    
+}
+.img {
+    display: block;
+    float: right;
+    margin-right: 20rem;
+    margin-inline: auto;
+}
+.img img {
+    margin-left: 30rem;
+}
+.textCenter {
+    font-size: 1.5rem;
+    width: 400px;
+    margin-top: 5rem;
+    margin-inline: auto;
+    text-align: center;
+    line-height: 2rem;
+}
+.affiche2 a {
+    margin-inline: auto;
+    background-color: #E62E2D;
+    padding: 0.5rem;
+    border-radius: 1.5rem;
+    text-decoration: none;
+    color: white;
+    margin-top: 5rem;
+    transition: .3s;
+}
+.affiche2 a:hover {
+    background-color: #c52625;
+}
+footer {
+    height: 50vh;
+}
+.flexcol {
+    display: flex;
+    flex-direction: column;
+    color: #807A7A;
+}
+.flexcol input {
+    width: 25rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    margin: 5px 0;
+    background-color: #D9D9D9; 
+}
+.flexcol label {
+    margin-left: 5px;
+}
+.flexcol h1 {
+    margin: 20px 0;
+}
+.flexcol a {
+    width: 7rem;
+    text-align: center;
+}
+.flexcol p {
+    text-align: center;
+}
+.containerIC {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.containerIC a {
+    margin-inline: auto;
+}
+.containerIC p {
+  
+    margin: 10px 0;
+}
+.header1 {
+    background-image: linear-gradient(rgba(0,0,0,0.8)), url(img/film-9\ 1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+    padding: 1rem 2rem;
+} 
+.header1 img {
+    position: absolute;
+}
+.flexcol .mg-top {
+    margin-top: 2rem;
+}
+.atext {
+    text-decoration: none;
+    color: #807A7A;
+} 
+.atext:hover {
+    text-decoration: underline;
+}
+.header2 {
+    background-image: linear-gradient(rgba(0,0,0,0.8)), url(img/film-13\ 1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+    padding: 1rem 2rem;
+} 
+.header2 img {
+    position: absolute;
+}
+.flex {
+    display: flex;
+    align-items: center;
+    background-color: #E62E2D;
+    height: 9rem;
+    padding-left: 2rem;
+    padding-right: 8rem;
+}
+.flex .aa {
+    text-decoration: none;
+    color: black;
+    margin-inline: 6rem;
+    transition: .3s;
+}
+.aa:hover {
+    color: white;
+}
+.bold {
+    font-weight: 700;
+    font-size: 2rem;
+}
+.flexcol1 {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #E62E2D;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    padding-block: 1rem;
+    width: 16rem;
+    transition: .3s;
+}
+.smallh1 {
+    color: #E62E2D;
+    text-align: center;
+}
+.flexcol1 .span,
+.lic{
+    margin-block: 2rem;
+    text-align: center;
+}
+.flexcol1 a {
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+}
+.lic::before {
+    content: ".";
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    vertical-align: middle;
+    margin-top: -1rem;
+    display: inline-block;
+    width: 1rem;
+    margin-right: 0.2em;
+}
+.li::before {
+    content: ".";
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    vertical-align: middle;
+    margin-top: -1rem;
+    display: inline-block;
+    width: 1rem;
+    margin-right: 0.1em;
+    margin-left: 1.5rem;
+}
+.flex1 {
+    display: flex;
+    gap: 5rem;
+}
+.li span:last-child {
+    margin-left: 3rem;
+}
+.li {
+    margin-left: 2rem;
+    margin-block: 1.2rem !important;
+    
+} 
+.flexcol2 {
+    display: flex;
+    flex-direction: column;
+}
+.flexcol2 h1 {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.flexcol1:hover {
+    transform: scale(1.1);
+    border-color: white;
+    
+}
+@media screen and (max-width: 750px)  {
+    .header1 img,
+    .header2 img,
+    .topbar img,
+    .header3 img {
+        width: 5rem;
+    }
+    .flex {
+        height: 3rem;
+        padding: 0.5rem;
+    }
+    .aa {
+        display: none;
+    }
+    .flex1 {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .flexcol input {
+        width: 20rem;
+    }
+    .mail input {
+        width: 15rem;
+        font-size: 1rem;
+        height: 1.5rem;
+        padding-left: 2rem;
+    }
+    .bg-red {
+        font-size: 0.8rem;
+        width: 7.5rem;
+
+    }
+    .btext {
+        font-size: 1.5rem;
+        width: 16rem;
+        margin-top: 2rem;
+    }
+    .mail a {
+        padding: 0.45rem;
+        text-align: center;
+        font-size: 0.8rem;
+        width: 5rem;
+        margin-left: -5rem;
+    }
+    .bgH {
+        font-size: 0.8rem;
+        width: 7rem;
+        text-align: center;
+    }
+    .prix img,
+    .affiche img,
+    .affiche2 img {
+        width: 15rem;
+        height: auto;
+    }
+ 
+    .prix,
+    .affiche,
+    .affiche2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .ptext,
+    .ptext2 {
+        text-align: center;
+        font-size: 1rem;
+        width: 20rem;
+        margin-top: 2rem;
+    }
+    .prix img,
+    .affiche img{
+        width: 20rem;
+    }
+    .ptext {
+        margin-top: 1rem;
+        text-align: left;
+        line-height: 1.2rem;
+    }
+    .ptext2 {
+        margin-bottom: 0.5rem;
+        text-align: left;
+        line-height: 1.2rem;
+    }
+    .affiche2 img {
+        margin-top: 1rem;
+        margin-left: 0;
+        margin-inline: 0;
+        width: 20rem;
+    }
+    .affiche2 p {
+        font-size: 1.2rem;
+        width: 20rem;
+    }
+    .img img {
+        float: none;
+        margin-left: 0;
+    }
+    footer {
+        height: 20vh;
+    }
+    .img3 {
+        margin-top: 1rem;
+    }
+    .header2,
+    .header1 {
+        padding: 0.5rem;
+    }
+    .containerIC {
+        height: auto;
+        margin-top: 5rem;
+    }
+    .flexcol2 h1 {
+        margin-bottom: 2rem;
+    }
+    .flexcol1 {
+        margin-block: 0.5rem
+    }
+    .menuH img{
+        width: 2rem;
+    }
+    .flexMob {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 0.5rem;
+        background-color: #E62E2D;
+    }
+    .menuH {
+        display: block;
+        transition: .3s;
+    }
+    .menuH:hover {
+        transform: scale(1.1);
+    }
+}
+@media screen and (max-width: 1100px) {
+    .header1 img,
+    .header2 img,
+    .topbar img,
+    .header3 img {
+        width: 5rem;
+    }
+    .img {
+        margin-right: 12rem;
+    }
+    .flex {
+        height: 3rem;
+        padding: 0.5rem;
+    }
+    .aa {
+        display: none;
+    }
+    .flex1 {
+        display: flex;
+        justify-content: center;
+        gap: 0.5rem;
+    }
+    .flexcol input {
+        width: 20rem;
+    }
+    .mail input {
+        width: 15rem;
+        font-size: 1rem;
+        height: 1.5rem;
+        padding-left: 2rem;
+    }
+    .bg-red {
+        font-size: 0.8rem;
+        width: 7.5rem;
+
+    }
+    .btext {
+        font-size: 1.5rem;
+        width: 16rem;
+        margin-top: 2rem;
+    }
+    .mail a {
+        padding: 0.45rem;
+        text-align: center;
+        font-size: 0.8rem;
+        width: 5rem;
+        margin-left: -5rem;
+    }
+    .bgH {
+        font-size: 0.8rem;
+        width: 7rem;
+        text-align: center;
+    }
+    .prix img,
+    .affiche img,
+    .affiche2 img {
+        width: 15rem;
+        height: auto;
+    }
+ 
+
+    .ptext,
+    .ptext2 {
+        text-align: center;
+        font-size: 1rem;
+        width: 20rem;
+    }
+    .prix img,
+    .affiche img{
+        width: 20rem;
+    }
+    .ptext {
+        margin-top: 1rem;
+        text-align: left;
+        line-height: 1.2rem;
+    }
+    .ptext2 {
+        margin-bottom: 0.5rem;
+        text-align: left;
+        line-height: 1.2rem;
+    }
+    .affiche2 img {
+        margin-top: 1rem;
+        width: 20rem;
+    }
+    .affiche2 p {
+        font-size: 1.2rem;
+        width: 20rem;
+    }
+    footer {
+        height: 20vh;
+    }
+    .img3 {
+        margin-top: 1rem;
+    }
+    .header2,
+    .header1 {
+        padding: 0.5rem;
+    }
+    .containerIC {
+        height: auto;
+        margin-top: 5rem;
+    }
+    .flexcol2 h1 {
+        margin-bottom: 2rem;
+    }
+    .flexcol1 {
+        margin-block: none;
+        width: 15rem;
+        font-size: 1.4rem;
+    }
+    .menuH img{
+        width: 2rem;
+    }
+    .flexMob {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 0.5rem;
+        background-color: #E62E2D;
+    }
+    .menuH {
+        display: block;
+        transition: .3s;
+    }
+    .menuH:hover {
+        transform: scale(1.1);
+    }
+}
