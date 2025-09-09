@@ -219,11 +219,11 @@ footer {
     height: 9rem;
     padding-left: 2rem;
     padding-right: 8rem;
+    justify-content: space-between;
 }
 .flex .aa {
     text-decoration: none;
     color: black;
-    margin-inline: 6rem;
     transition: .3s;
 }
 .aa:hover {
@@ -305,12 +305,23 @@ footer {
     border-color: white;
     
 }
-@media screen and (max-width: 750px)  {
+@media screen and (max-width: 900px)  {
     .header1 img,
     .header2 img,
     .topbar img,
     .header3 img {
         width: 5rem;
+    }
+    .container {
+        margin-top: 10rem;
+    }
+    .img {
+        display: flex;
+        float: none;
+        margin-left: 0!important;
+        margin-right: 0!important;
+        margin-inline: auto;
+        justify-content: center;
     }
     .flex {
         height: 3rem;
@@ -393,16 +404,13 @@ footer {
     .affiche2 img {
         margin-top: 1rem;
         margin-left: 0;
-        margin-inline: 0;
-        width: 20rem;
+        width: 15rem;
     }
+
     .affiche2 p {
         font-size: 1.2rem;
         width: 20rem;
-    }
-    .img img {
-        float: none;
-        margin-left: 0;
+        margin-top: 2rem;
     }
     footer {
         height: 20vh;
@@ -448,6 +456,9 @@ footer {
     .topbar img,
     .header3 img {
         width: 5rem;
+    }
+    .container {
+        margin-top: 0rem;
     }
     .img {
         margin-right: 12rem;
@@ -570,4 +581,9 @@ footer {
     .menuH:hover {
         transform: scale(1.1);
     }
+}
+@media screen and (min-height: 600px) {
+    .container {
+        margin-top: 8rem;
+    } 
 }
