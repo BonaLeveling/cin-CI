@@ -1,0 +1,67 @@
+.container {
+    padding: 0.5rem 1rem;
+    background-image: linear-gradient(rgba(0,0,0,0.5)), url(img/cacao.png);;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: Inter, sans-serif;
+    display: flex;
+    color: white;
+}
+.parent {
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1rem;
+}
+.img {
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    margin-left: 3rem;
+   
+}
+.img img {
+    width: 40px;
+}
+.bl span {
+    float: right;
+    margin-right: 5rem;
+}
+.bl p {
+    width: 40rem;
+    line-height: 1.5rem;
+    margin-top: 1rem;
+}
+@media screen and (max-width: 840px) {
+    .logo {
+        width: 5rem;
+    }
+    .bl p {
+        width: 20rem;
+        font-size: 0.8rem;
+    }
+    .bl span {
+        float: right;
+        margin-right: 3rem;
+    }
+    .parent {
+        display: flex;
+        position: absolute;
+        margin-top: 20vh;
+        align-items: center;
+        letter-spacing: 0.1rem;
+    }
+    .img {
+        margin-top: 3rem;
+        display: flex;
+        align-items: center;
+        margin-left: 1.5rem;
+    }
+    .img img {
+        width: 30px;
+    }
+  
+}
+
+
